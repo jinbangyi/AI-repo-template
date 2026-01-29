@@ -24,7 +24,7 @@ TODO: Add a brief project description here.
 │   ├── rules.md                       # Project rules and guidelines for AI agents
 │   └── settings.json                  # Claude Code settings
 ├── .devcontainer/                     # Development container runtime configuration
-│   ├── .env.example                   # Example environment variables file
+│   ├── env.example                    # Example environment variables file
 │   └── docker-compose.yaml            # Docker Compose file for devcontainer
 ├── debug/                             # Temporary debugging files ONLY
 ├── docs/                              # Project documentation
@@ -41,8 +41,11 @@ TODO: Add a brief project description here.
 ├── scripts/                           # Repository scripts (to be implemented)
 ├── src/                               # All source code (to be implemented)
 ├── .dockerignore                      # Docker ignore file
+├── .env.local                         # Local environment variables file (to be created by user)
 ├── .gitignore                         # Git ignore file
 ├── CLAUDE.md                          # Project overview and guidelines for AI agents
+├── Dockerfile                         # Dockerfile for containerizing the application
+├── env.example                        # Example environment variables file
 ├── main.py                            # Main application entry point (to be implemented)
 ├── pyproject.toml                     # Python project configuration (to be implemented)
 ├── README.md                          # Project README file (to be implemented)
