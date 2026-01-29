@@ -5,6 +5,12 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git diff:*)",
+      "Bash(gh repo fork:*)",
+      "Bash(gh auth status:*)",
+      "Bash(gh pr create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
 
       "Bash(docker-compose:*)",
       "Bash(docker compose:*)",
