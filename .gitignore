@@ -216,3 +216,6 @@ __marimo__/
 /.mcp.json
 /.claude/local.settings.json
 /.mcp-prod.json
+
+/docs/AI-external-context/dev.md
+/docs/AI-external-context/prd.md
