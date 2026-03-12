@@ -1,4 +1,19 @@
+# local AI files
 /.ai/
+/.agents/
+/.claude/
+
+# docs and debug
+/docs/
 /debug/
 /core
+
+# runtime
+/.devcontainer/
+
+# env
+.env
+.env.*
+
+# python
 /.venv/
