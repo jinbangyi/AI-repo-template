@@ -17,10 +17,12 @@ TODO: Add a brief project description here.
 ├── debug/                                      # Temporary debugging files ONLY
 ├── docs/                                       # Project documentation
 │   ├── AI-external-context/                    # External system context for AI agents
-│   │   |── local.md                            # Local running environment info, local env which can upload to git
+│   │   ├── local.md                            # Local running environment info, local env which can upload to git
 │   │   └── dev.md                              # Development environment info(vercel,loki,database,hosting,ci/cd etc)
 │   ├── blogs/                                  # Blog posts and articles (best practices, tutorials, solutions)
 │   ├── development/                            # Date-based development plans (YY-MM-DD/)
+│   │   ├── template/                           # Template for development notes
+│   │   │   └── user.md                         # Template for user requirements/tasks
 │   │   └── 26-01-09/                           # development notes for Jan 9, 2026
 │   │       └── user.md                         # user requirements/tasks for the day
 │   ├── requirements/                           # Requirements documentation, specs, and user stories
