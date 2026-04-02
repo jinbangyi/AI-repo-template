@@ -6,7 +6,9 @@
 # docs and debug
 /docs/
 /debug/
+/data/
 /core
+/code-repo/
 
 # runtime
 /.devcontainer/
@@ -17,3 +19,6 @@
 
 # python
 /.venv/
+
+# node
+/node_modules/

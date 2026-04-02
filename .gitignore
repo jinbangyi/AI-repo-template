@@ -139,7 +139,7 @@ celerybeat.pid
 .env.dev
 .env.prod
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -209,11 +209,11 @@ marimo/_lsp/
 __marimo__/
 
 # temp files
-/debug/
+# /debug/
 /core
 
 # AI files
-/.ai/
+# /.ai/
 /.claude/externals/
 /.mcp.json
 /.claude/local.settings.json
@@ -221,3 +221,6 @@ __marimo__/
 
 /docs/AI-external-context/dev.md
 /docs/AI-external-context/prd.md
+
+# node
+/node_modules/
