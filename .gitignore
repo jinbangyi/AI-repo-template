@@ -139,7 +139,7 @@ celerybeat.pid
 .env.dev
 .env.prod
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -221,3 +221,6 @@ __marimo__/
 
 /docs/AI-external-context/dev.md
 /docs/AI-external-context/prd.md
+
+# node
+/node_modules/

@@ -12,9 +12,20 @@ TODO: Add a brief project description here.
 │   └── 26-01-09/                               # summaries for Jan 9, 2026
 ├── .claude/                                    # Claude Code configuration (agents, commands, skills)
 ├── .devcontainer/                              # Development container runtime configuration
-│   ├── env.example                             # Example environment variables file
+│   ├── .env.example                            # Example environment variables file
 │   └── docker-compose.yaml                     # Docker Compose file for devcontainer
 ├── debug/                                      # Temporary debugging files ONLY
+├── data/                                       # persistent data storage for the workspace
+├── code-repo/                                  # Storage for cloned code repositories
+│   ├── github/                                 # Public GitHub repositories
+│   |   │── Public Github Repo1/                # Github repository, AI can create a deepresearch based on the source code
+│   |   └── Public Github Repo2/                # Github repository
+│   ├── Your Github Account/                    # code repo of your personal github account
+│   │   |── Your Personal Repo1/                # Description of your repo
+│   │   └── Your Personal Repo2/                # Description of your repo
+│   └── Your Github Org/                        # Your GitHub organization repositories
+│       │── skills/                             # Minara Skills repository
+│       └── minara-cli/                         # Minara CLI repository
 ├── docs/                                       # Project documentation
 │   ├── AI-external-context/                    # External system context for AI agents
 │   │   ├── local.md                            # Local running environment info, local env which can upload to git
@@ -27,8 +38,9 @@ TODO: Add a brief project description here.
 │   │       └── user.md                         # user requirements/tasks for the day
 │   ├── requirements/                           # Requirements documentation, specs, and user stories
 │   │   └── feature-xx/                         # Feature-specific requirements
+│   ├── rules/                                  # Repository rules and guidelines
+│   │   └── project.md                          # Project-specific rules and guidelines
 │   ├── user-guide/                             # User guides and manuals
-│   ├── rules.md                                # Repository rules and guidelines
 │   └── TODO.md                                 # Active TODO list (unfinished tasks only)
 ├── scripts/                                    # Repository scripts (to be implemented)
 ├── src/                                        # All source code (to be implemented)
@@ -38,7 +50,7 @@ TODO: Add a brief project description here.
 ├── .gitignore                                  # Git ignore file
 ├── CLAUDE.md                                   # Project overview and guidelines for AI agents
 ├── Dockerfile                                  # Dockerfile for containerizing the application
-├── env.example                                 # Example environment variables file
+├── .env.example                                # Example environment variables file
 ├── main.py                                     # Main application entry point (to be implemented)
 ├── pyproject.toml                              # Python project configuration (to be implemented)
 ├── README.md                                   # Project README file (to be implemented)
