@@ -92,6 +92,7 @@
       "Bash(pm2 delete:*)",
       "Bash(pm2 start:*)",
       "Bash(pm2 logs:*)",
+      "Bash(pm2 status:*)"
 
       "Bash(npx skills find:*)",
       "Bash(npx skills info:*)",
@@ -102,6 +103,7 @@
       "Bash(npx prisma generate:*)",
 
       "WebSearch",
+      "WebFetch(domain:pypi.org)",
       "mcp__web-reader__webReader",
       "mcp__web-search-prime__webSearchPrime",
       "mcp__github__get_file_contents",
