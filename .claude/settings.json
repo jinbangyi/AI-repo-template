@@ -5,7 +5,6 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git diff:*)",
-      "Bash(git push:*)",
       "Bash(git pull:*)",
       "Bash(git tag:*)",
       "Bash(git remote add:*)",
@@ -92,7 +91,7 @@
       "Bash(pm2 delete:*)",
       "Bash(pm2 start:*)",
       "Bash(pm2 logs:*)",
-      "Bash(pm2 status:*)"
+      "Bash(pm2 status:*)",
 
       "Bash(npx skills find:*)",
       "Bash(npx skills info:*)",

@@ -225,3 +225,6 @@ __marimo__/
 
 # node
 /node_modules/
+
+/code-repos/
+/docs/AI-external-context/personal-info/

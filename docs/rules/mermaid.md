@@ -1,4 +1,4 @@
-### 📌 Mermaid Syntax Rule
+# Mermaid Syntax Rule
 
 **Mermaid keywords are case-sensitive.**
 Always use lowercase keywords (e.g. `graph`, `subgraph`, `style`).
