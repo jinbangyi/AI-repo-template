@@ -43,15 +43,16 @@ TODO: Add a brief project description here.
 │   ├── development/                            # Date-based development plans (YY-MM-DD/)
 │   │   ├── templates/                          # Template for development notes
 │   │   │   └── user.md                         # Template for user requirements/tasks
-│   │   └── 26-01-09/                           # development notes for Jan 9, 2026
-│   │       └── user.md                         # user requirements/tasks for the day
+│   │   │── 26-01-09/                           # development notes for Jan 9, 2026
+│   │   │   └── user.md                         # user requirements/tasks for the day
+│   │   └── TODO.md                             # TODO list for recent development tasks (short-term, tactical)
 │   ├── project/                                # all project-related documentation
 │   │   └── requirements/                       # Project requirements and specifications
 │   │       └── feature-xx/                     # Feature-specific requirements
 │   ├── rules/                                  # Repository rules and guidelines
 │   │   └── project.md                          # Project-specific rules and guidelines
 │   ├── user-guide/                             # User guides and manuals
-│   └── TODO.md                                 # Active TODO list (unfinished tasks only)
+│   └── TODO.md                                 # project level TODO list for long-term, big-picture
 ├── scripts/                                    # Repository scripts (to be implemented)
 ├── src/                                        # All source code (to be implemented)
 ├── .dockerignore                               # Docker ignore file
